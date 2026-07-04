@@ -1,21 +1,28 @@
-# gymr-web
+# rivld-web
 
-Marketing, support, privacy policy, and terms of service for [RIVLD](https://rivldapp.com).
+Marketing, support, privacy policy, and terms of service for [RIVLD](https://jphjuan18.github.io/rivld-web/).
 
 ## Live URLs
 
 | Page | URL |
 |------|-----|
-| Home (Support + Marketing) | https://rivldapp.com/ |
-| Privacy Policy | https://rivldapp.com/privacy |
-| Terms of Service | https://rivldapp.com/terms |
+| Home (Support + Marketing) | https://jphjuan18.github.io/rivld-web/ |
+| Privacy Policy | https://jphjuan18.github.io/rivld-web/privacy.html |
+| Terms of Service | https://jphjuan18.github.io/rivld-web/terms.html |
 
-GitHub Pages fallback: https://jphjuan18.github.io/gymr-web/
+## App Store Connect
 
-## Custom domain setup
+- **Support URL:** https://jphjuan18.github.io/rivld-web/
+- **Marketing URL:** https://jphjuan18.github.io/rivld-web/
+- **Privacy Policy URL:** https://jphjuan18.github.io/rivld-web/privacy.html
 
-1. In repo **Settings → Pages**, set custom domain to `rivldapp.com` and enable **Enforce HTTPS**.
-2. At your domain registrar, remove Squarespace parking records and add:
+## Custom domain (optional, when DNS is ready)
+
+To serve at `rivldapp.com` instead of GitHub Pages:
+
+1. Add a `CNAME` file containing `rivldapp.com`
+2. In repo **Settings → Pages**, set custom domain to `rivldapp.com` and enable **Enforce HTTPS**
+3. At your domain registrar, remove Squarespace parking records and add:
 
 | Type | Host | Value |
 |------|------|-------|
@@ -24,11 +31,3 @@ GitHub Pages fallback: https://jphjuan18.github.io/gymr-web/
 | A | `@` | `185.199.110.153` |
 | A | `@` | `185.199.111.153` |
 | CNAME | `www` | `jphjuan18.github.io` |
-
-3. Wait for DNS propagation and GitHub's TLS certificate (usually minutes, up to 24h).
-
-## App Store Connect
-
-- **Support URL:** https://rivldapp.com/
-- **Marketing URL:** https://rivldapp.com/
-- **Privacy Policy URL:** https://rivldapp.com/privacy
